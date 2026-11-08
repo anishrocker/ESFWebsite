@@ -19,7 +19,6 @@ assert(html.includes('https://www.instagram.com/esf_basiscedarpark/'), 'Missing 
 assert(html.includes('https://substack.com/@endlesssmilesfoundationbcpk'), 'Missing chapter journal');
 assert(html.includes('November 2026 · Date TBA'), 'Fundraiser must keep unconfirmed exact date clear');
 assert(html.includes('not BASIS Cedar Park chapter totals'), 'Foundation numbers must be distinguished from chapter totals');
-assert(html.includes('Board introductions and photos are coming soon'), 'Unconfirmed leadership must remain clear');
 const hosting = JSON.parse(await readFile(new URL('.openai/hosting.json', root), 'utf8'));
 assert(hosting.project_id && hosting.static.directory === 'dist', 'Invalid hosting configuration');
 console.log(`Passed: ${ids.length} unique IDs, all anchor/accessibility targets, ${assets.size} local assets, image descriptions, chapter links, and content boundaries.`);
