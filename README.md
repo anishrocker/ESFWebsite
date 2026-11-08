@@ -18,6 +18,7 @@ Open http://localhost:3000. Build a static deployment with `npm run build`; the 
 - Happenings noticeboard linking to the chapter Instagram and Substack.
 - Accessible upcoming/past event tabs with keyboard navigation.
 - November 2026 fall fundraiser, with exact date and location pending.
+- Future Projects section introducing the planned ESF × HOSA monthly newsletter, with November and December awareness topics supplied by the chapter.
 - Goals, foundation accomplishments, history timeline, and leadership section.
 - Photo gallery with an accessible modal, previous/next controls, and keyboard support.
 - Get involved dialog linking directly to the chapter's actual communication channels.

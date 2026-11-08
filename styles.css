@@ -26,3 +26,26 @@ dialog{color:var(--ink);border:1px solid #d9ddcd;background:var(--cream);padding
 .archive-heading{margin:42px 0 12px;font-size:28px}
 .past-grid .chapter-cards{object-fit:contain;background:#e5dfd0}
 @media(max-width:560px){.chapter-gallery{grid-template-columns:1fr}.chapter-gallery .gallery-photo>img.chapter-cards{aspect-ratio:3/4}.photo-secondary img{object-position:center 35%}.archive-heading{font-size:25px}}
+
+/* Upcoming chapter collaborations and their planned editorial topics. */
+.future-projects{padding-bottom:30px}
+.future-projects .section-heading>.pill{background:#e5e9db;font-size:9px;padding:9px 14px;flex-shrink:0}
+.future-projects .handwritten{font-size:1.18em}
+.newsletter-project{display:grid;grid-template-columns:.85fr 1.3fr;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fffdf7}
+.newsletter-project-intro{background:#e5e9db;padding:35px}
+.newsletter-heart{width:40px;height:40px;color:var(--coral);transform:rotate(-10deg);margin-bottom:25px}
+.newsletter-project-intro h3{font-size:32px;line-height:1.1}
+.newsletter-project-intro>p:not(.eyebrow){font-size:13px;line-height:1.9}
+.newsletter-status{font-weight:700;margin-bottom:10px}
+.newsletter-project-intro .text-link{font-size:11px}
+.newsletter-topics{padding:35px}
+.newsletter-months{display:grid;grid-template-columns:1.1fr 1fr;gap:28px}
+.newsletter-months article{border-top:2px solid var(--yellow);padding-top:18px}
+.newsletter-months h3{font-size:26px;margin-bottom:18px}
+.newsletter-months ul{padding-left:17px;margin:0;font-size:12px;line-height:1.7}
+.newsletter-months li{padding-left:3px;margin-bottom:12px}
+.newsletter-months li::marker{color:var(--coral)}
+.newsletter-month-note{display:block;font-size:26px!important;color:#68745a;line-height:1.1;transform:rotate(-5deg);margin-top:30px;text-align:center}
+.future-projects-link{display:flex;width:fit-content;margin-top:12px;font-size:11px}
+@media(max-width:1020px){.newsletter-project{grid-template-columns:1fr}.newsletter-project-intro{padding:30px}.newsletter-project-intro>p{max-width:630px}.newsletter-heart{float:right;margin:0 0 20px 20px}.newsletter-topics{padding:30px}.newsletter-months{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.future-projects{padding-bottom:15px}.newsletter-project-intro,.newsletter-topics{padding:25px}.newsletter-project-intro h3{font-size:28px}.newsletter-months{grid-template-columns:1fr;gap:28px}.newsletter-months h3{font-size:25px}.newsletter-months ul{font-size:12px}.newsletter-month-note{margin-top:25px;text-align:left}.newsletter-heart{width:32px;height:32px}}
