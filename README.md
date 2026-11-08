@@ -34,9 +34,9 @@ Chapter name, school, Instagram, Substack, and November fundraiser were supplied
 - Foundation projects and camp figures: https://www.endlesssmilesfoundation.org/projects
 - Chapter listing: https://www.endlesssmilesfoundation.org/chapters
 
-The 50 children, 15 volunteers, and $1,000 raised are the **wider foundation's STEAM camp figures**, not chapter totals. Past projects and photos are similarly labeled foundation-wide. Leadership introductions are explicitly forthcoming. Substack and Instagram could not be read in the build environment, so links are provided without an invented social feed.
+The 50 children, 15 volunteers, and $1,000 raised are the **wider foundation's STEAM camp figures**, not chapter totals. The past projects section now opens with confirmed chapter activities: nurse appreciation baskets and goodies, and cards for hospitalized children. Wider-foundation projects are labeled separately. Leadership introductions are explicitly forthcoming. Substack and Instagram could not be read in the build environment, so links are provided without an invented social feed.
 
-`assets/` contains images published by the foundation. They illustrate the wider ESF organization, not confirmed BASIS Cedar Park events. `assets/fonts/` contains Google Fonts: Bricolage Grotesque, DM Sans, and Caveat, distributed under the SIL Open Font License; license texts are included alongside the font files.
+`assets/nurseappreciation.png` and `assets/cards.png` were uploaded by the site owner and show confirmed BASIS Cedar Park chapter activities. They appear in the hero scrapbook, past activities, and photo viewer. Other images in `assets/` were published by the wider foundation. `assets/fonts/` contains Google Fonts: Bricolage Grotesque, DM Sans, and Caveat, distributed under the SIL Open Font License; license texts are included alongside the font files.
 
 ## Editing
 
