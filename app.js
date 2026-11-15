@@ -1,3 +1,8 @@
+import { injectSpeedInsights } from './vendor/speed-insights.mjs';
+
+// Initialize Vercel Speed Insights
+injectSpeedInsights();
+
 const menuButton = document.querySelector('.menu-toggle');
 const navigation = document.querySelector('#main-nav');
 function closeMenu() {
